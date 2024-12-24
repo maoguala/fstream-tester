@@ -1,11 +1,12 @@
 #include "ui.h"
+#include "ui_logic.h"
 #include "vari.h"
 
-int sel = 0;
+
 int main()
 {   
     
     main_page();
-    std::cin >> sel;
+    sel_judge();
     
 }
